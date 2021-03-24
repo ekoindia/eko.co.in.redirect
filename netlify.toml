@@ -1,0 +1,19 @@
+# Redirect everything to eko.in
+
+[[redirects]]
+from = "/wp-content/uploads/Customer_TC.pdf"
+to = "https://eko.in/Eko_Customer_TC.pdf"
+status = 301
+force = true
+
+[[redirects]]
+from = "/*"
+to = "https://eko.in/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/"
+to = "https://eko.in"
+status = 301
+force = true
